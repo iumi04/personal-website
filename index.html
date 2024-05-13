@@ -28,6 +28,13 @@
     <link rel="stylesheet" href="css/custom.css">
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
+
+    <!-- Swiper CSS-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -217,13 +224,14 @@
     <!-- End of EXPERIENCE SECTION ;; Start of PROJECT SECTION-->
 
 	<div id="portfolio" class="section lb">
-		<div class="slide-container">
+		<div class="slide-container swiper">
 			<div class="section-title text-left">
-                <h3 style="margin-left:200px">Projects</h3>
+                <h3>Projects</h3>
             </div><!-- end title -->
             <div class="slide-content">
-                <div class="card-wrapper">
-                    <div class="card">
+                <div class="card-wrapper swiper-wrapper">
+                    <!-- Project 1-->
+                    <div class="card swiper-slide">
                         <div class="image-content">
                             <span class="overlay"></span>
 
@@ -238,18 +246,106 @@
 
                             <button class="button">View More</button>
                         </div>
+                    </div>
+                    <!-- Project 2-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
 
+                            <div class="card-image">
+                                <img src="uploads/bussinLogo.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">BUssin Project Home</h2>
+                            <p class="description">My team and I are currently working with front-end and back-end to launch a website to be utilized by students at Boston University. The website would function as a food rating site for all the dining spots on BU's campus in order to allow students to quickly and easily view ratings for different shops and food items. We plan to launch this by May 2024.</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <!-- Project 3-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="uploads/todo1.png" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">To-Do List</h2>
+                            <p class="description">I am currently using HTML, CSS, and Javascript to construct a simple, aesthetic, and user-friendly To-Do list website. I intend to have features that enable users to add, check/uncheck, edit, save, and delete tasks at ease. After initial completion, I plan to come back to this project and add many more unique features such as a theme switcher or a way to sort tasks.</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <!-- Project 4-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Coming Soon!</h2>
+                            <p class="description">A Python implementation of the classic board game, offering players the opportunity to challenge an AI opponent -- a computer. The computer employs basic strategies to analyze game states and make intelligent moves. Users can enjoy a user-friendly interface, customize the difficulty level, and test their skills against the computer.</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <!-- Project 5-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Coming Soon!</h2>
+                            <p class="description">A Python implementation of the classic board game, offering players the opportunity to challenge an AI opponent -- a computer. The computer employs basic strategies to analyze game states and make intelligent moves. Users can enjoy a user-friendly interface, customize the difficulty level, and test their skills against the computer.</p>
+
+                            <button class="button">View More</button>
+                        </div>
+                    </div>
+                    <!-- Project 6-->
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Coming Soon!</h2>
+                            <p class="description">A Python implementation of the classic board game, offering players the opportunity to challenge an AI opponent -- a computer. The computer employs basic strategies to analyze game states and make intelligent moves. Users can enjoy a user-friendly interface, customize the difficulty level, and test their skills against the computer.</p>
+
+                            <button class="button">View More</button>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
 		</div>
 	</div>
-	
+
     <div id="contact" class="section db">
         <div class="container">
             <div class="section-title text-left">
                 <h3>Contact</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+                <p>[Something along the lines of "feel free to reach out to me..."]</p>
             </div><!-- end title -->
 
             <div class="row">
@@ -297,6 +393,7 @@
                 <div class="footer-left">
                     <p class="footer-links">
                         <a href="#">Home</a>
+                        <a href="https://www.instagram.com/x.xp04/">Instagram</a>
                         <a href="https://www.linkedin.com/in/prashant-gangesar/">LinkedIn</a>
                         <a href="https://github.com/iumi04">GitHub</a>
                         <a href="#contact">Contact</a>
@@ -324,5 +421,12 @@
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
 </html>

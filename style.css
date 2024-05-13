@@ -732,11 +732,15 @@ main.exprow{
 
 
 .card{
-    width: 320px;
     border-radius: 25px;
-    background-color: #FFF;
+    background-color: grey;
 }
 
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
 .slide-content{
     margin: 0 40px;
 }
@@ -747,10 +751,38 @@ main.exprow{
     flex-direction: column;
     align-items: center;
     padding: 10px 14px;
+    background-color: #FFF;
 }
 
 .image-content{
+    position: relative;
     row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 100%;
+    background-color: #4070F4;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
 }
 
 .card-image{
