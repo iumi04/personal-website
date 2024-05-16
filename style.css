@@ -514,6 +514,10 @@ xclip
     background-color: #f2f3f5;
 }
 
+.section.lba {
+    background-color: #FFF;
+}
+
 .section.db {
     background-color: #111111;
 }
